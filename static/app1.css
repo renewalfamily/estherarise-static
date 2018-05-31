@@ -1,0 +1,151 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+    min-width: 992px;
+    background:url('/static/body.jpg') no-repeat top center;
+    /*background-size:contain;*/
+    background-size:cover;
+}
+body {
+    /* Margin bottom by footer height */
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Lucida Grande","Helvetica Neue", Helvetica,Arial,"Microsoft YaHei","Microsoft JhengHei", SimKai, sans-serif;
+    min-width: 992px;
+    background-color:rgba(0, 0, 0, 0.0);
+}
+.footer {
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
+    /*width: 992px;*/
+    /* Set the fixed height of the footer here */
+    height: 6em;
+    padding-top: 1em;
+    line-height: 1.5em; /* Vertically center the text there */
+    background-color: black!important;
+    color: aliceblue;
+}
+
+/* make Bookstrap non-responsive */
+@media (min-width: 576px) {
+    .container {
+        width: 992px;
+        max-width: none!important;
+    }
+}
+@media (min-width: 768px){
+    .container {
+        width: 992px;
+        max-width: none!important;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 992px;
+        max-width: none!important;
+    }
+}
+/* space between content and footer*/
+#empty {
+    padding-bottom: 10em;
+}
+p, ol {
+    line-height: 2em;
+}
+
+/* background color for each section */
+#menuWrap {
+    /* the same color as bg-dark in bootstrap 4 */
+    background-color: #343a40!important;
+}
+#footerWrap {
+    background-color: #343a40!important;
+}
+#poster {
+    background-color: #343a40!important;
+}
+
+/* for donation title */
+h4 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: rebeccapurple;
+}
+/* for media links page*/
+h6 {
+    line-height: 2em;
+}
+
+h1 {
+    padding: 2em 0em 1em 0em;
+}
+#about, #donation, #schedule, #transportation, #restaurant, #hotel, #videos, #coreValues, #faq,
+#promo, #medialinks, #notice, #gatheringvideo {
+    background-color: whitesmoke;
+}
+#renewalFamily, #pictures {
+    background-color: #e2dcff;
+}
+#cityPrayerAltar, #news2, #pray {
+    background-color: #faf8ff;
+}
+#contactUs, #prophetic, #toc, #yielding, #yieldingfocus1, #yieldingfocus2, #yieldingfocus3, #yieldingfocus4, #yieldingfocus5 {
+    background-color: #f5ffe6;
+}
+#news, #communion, #book, #awaken {
+    background-color: floralwhite;
+}
+#letter{
+    background: url("/static/notepaper-s.jpg") no-repeat center center;
+    background-size:cover;
+    min-height:100%;
+}
+#en-letter{
+    background: url("/static/en-notepaper.jpg") no-repeat center center;
+    background-size:cover;
+    min-height:100%;
+}
+
+/* for restaurants section*/
+.card {
+    margin-top: 1em;
+}
+
+#faq ul {
+    line-height: 2em;
+}
+
+#sitemap {
+    background-color: lemonchiffon;
+    color: navy;
+}
+
+#news li {
+    color: #c44;
+}
+
+#gallery img:hover {
+    cursor: pointer;
+}
+
+#book {
+    color: black;
+    background-color: white;
+}
+#book h2, #book h5, #book h3 {
+    margin: 1em 0em;
+}
+#book strong {
+    color: navy;
+    font-size: 1.2em;
+}
+#book hr {
+    border-top: 1px solid #343a40;
+    margin: 2em 0;
+}
+.bible {
+    color: black;
+    /*color: #cc4444;*/
+    margin: 0.5em 0em;
+}
