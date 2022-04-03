@@ -1,11 +1,12 @@
 ## Esther Arise 1111 website - 2017 (Archived) 
-This is the Esther Arise 1111 static website in 2017.
+This is the Esther Arise 1111 static website in 2017. The original website link http://estherarise1111.org has been cancelled. 
 
-The original website link http://estherarise1111.org has been cancelled. 
+I deployed this website into Netlify.com. The link is https://heuristic-galileo-ef3867.netlify.app/ and set a new domain name as https://1111.brideofchrist.ca/.
+The website is also liked to Renewal Family's website https://www.renewalfamily.org/.
 
-I deployed this website into Netlify.com. The link is https://heuristic-galileo-ef3867.netlify.app/.
+### How to deploy this website to Netlify?
 
-I will link this Esther Arise 1111 website to Renewal Family's website https://www.renewalfamily.org/.
+See https://blog.angang.ca/posts/2020/migrating-a-website-to-netlify/
 
 ### How to set custom domain for Netlify website?
 * Go to https://canspace.ca/ and add 
@@ -34,3 +35,5 @@ If you configure your DNS record correctly as above, click `Varify DNS configura
 * DNS verification was successful
 
 ![image](https://user-images.githubusercontent.com/62453078/161412431-7cdf2144-5a56-4292-97b3-cdb4254f17e1.png)
+
+
