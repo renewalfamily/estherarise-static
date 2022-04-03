@@ -20,6 +20,10 @@ I will link this Esther Arise 1111 website to Renewal Family's website https://w
 
 ![image](https://user-images.githubusercontent.com/62453078/161411759-0e8979d8-ac4f-47ab-9233-415fd0b2fb57.png)
 
+* The custom domain will be set as primary domain
+
+![image](https://user-images.githubusercontent.com/62453078/161412623-d59985bd-2500-46a7-9237-aaac8170468c.png)
+
 ### Enable HTTPS
 If you configure your DNS record correctly as above, click `Varify DNS configuration` will provision a Let’s Encrypt certificate for your custom domain automatically 
 
